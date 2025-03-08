@@ -25,7 +25,7 @@ input {
 /* Buttons */
 button {
     padding: 10px 15px;
-    background-color: #301ebd;
+    background-color: #4bbd1e;
     color: white;
     border: none;
     border-radius: 5px;
@@ -34,7 +34,7 @@ button {
 }
 
 button:hover {
-    background-color: #214a88;
+    background-color: #772188;
 }
 
 /* Expense List */
