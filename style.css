@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: #eff8ff;
     margin: 0;
     padding: 0;
 }
@@ -25,7 +25,7 @@ input {
 /* Buttons */
 button {
     padding: 10px 15px;
-    background-color: #28a745;
+    background-color: #301ebd;
     color: white;
     border: none;
     border-radius: 5px;
@@ -34,7 +34,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #214a88;
 }
 
 /* Expense List */

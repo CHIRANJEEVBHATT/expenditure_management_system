@@ -1,7 +1,9 @@
 💰 Expenditure Management System
 A simple web-based application to track and manage daily expenses using JavaScript, CSS, HTML, and local storage.
 
-📌 Features
+
+
+📌 Features:
 ✅ Set Initial Balance – Define your starting balance.
 ✅ Add Expenses – Enter the amount and description of expenses.
 ✅ View Expense List – Display all expenses with details.
