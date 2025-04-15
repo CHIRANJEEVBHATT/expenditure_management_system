@@ -1,4 +1,4 @@
-// Get elements
+
 let expenses = JSON.parse(localStorage.getItem("expenses")) || [];
 let totalBalance = parseFloat(localStorage.getItem("balance")) || 0;
 
