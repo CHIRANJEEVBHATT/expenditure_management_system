@@ -39,7 +39,7 @@ function updateExpenseList() {
 
     expenses.forEach((expense, index) => {
         let li = document.createElement("li");
-        li.textContent = `💰 ₹${expense.amount} - ${expense.description} `;
+        li.textContent = `₹${expense.amount} - ${expense.description} `;
         
         let deleteBtn = document.createElement("button");
         deleteBtn.textContent = "❌";
@@ -62,9 +62,8 @@ function deleteExpense(index) {
 }
 
 function updateBalance() {
-    document.getElementById("balance").textContent = `💵 Money Left: ₹${totalBalance}`;
+    document.getElementById("balance").textContent = `Money Left: ₹${totalBalance}`;
 }
 
-// Initialize UI on page load
 updateExpenseList();
 updateBalance();
